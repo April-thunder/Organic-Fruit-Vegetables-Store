@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Organic Fruit & Vegetables</title>
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Rosario:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="container container__header">
+      <a class="menu__btn" data-path="form-popup">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+      <nav class="menu">
+        <ul class="menu__list">
+          <li class="menu__item"><a class="menu__link" href="#">About Us</a></li>
+          <li class="menu__item"><a class="menu__link" href="#">Service</a></li>
+          <li class="menu__item"><a class="menu__link" href="#">Menu</a></li>
+          <li class="menu__item"><a class="menu__link" href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <img class="logo" src="images/logo.png" alt="logo">
+      <div class="header-right">
+        <button class="header-btn header-btn__search"></button>
+        <button class="header-btn header-btn__cart"></button>
+        <button class="btn-reg">Register Now</button>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <section class="main-section">
+      <div class="container container__color">
+        <h1 class="main-title">Organic Fruit & Vegetables</h1>
+        <p class="main-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+          been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley...</p>
+        <div class="leaves-block">
+          <div id="scene">
+            <img class="leaves" data-depth="0.2" src="images/leaves.png" alt="leaves">
+          </div>
+        </div>
+        <div class="order-block">
+          <span class="order-text">Order Now</span>
+          <button class="order-btn"></button>
+        </div>
+        <div class="main-bottom">
+          <img class="main-image" src="images/main_image.png" alt="main-image">
+          <div class="counter-block">
+            <div class="counter-block__item">
+              <img class="counter-icon" src="images/user.svg" alt="order">
+              <div class="counter-block__details">
+                <div class="counter-wrapper">
+                  <span class="counter" data-target="30">0</span>
+                  <span class="counter-format">K</span>
+                </div>
+                <span class="counter-block__text">User Order</span>
+              </div>
+            </div>
+            <div class="counter-block__item">
+              <img class="counter-icon" src="images/star.svg" alt="star">
+              <div class="counter-block__details">
+                <div class="counter-wrapper">
+                  <span class="counter" data-target="20">0</span>
+                  <span class="counter-format">K</span>
+                </div>
+                <span class="counter-block__text">Reviews(4.8)</span>
+              </div>
+            </div>
+            <div class="counter-block__item">
+              <img class="counter-icon" src="images/harvest.svg" alt="harvest">
+              <div class="counter-block__details">
+                <span class="counter" data-target="300">0</span>
+                <span class="counter-block__text">Items</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <section class="best-service-section">
+      <div class="container">
+        <h2 class="main-title main-title--service">Why We Are The Best?</h2>
+        <p class="section-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+          has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley...</p>
+        <div class="best-service__wrapper">
+          <div class="best-service__items-block">
+            <div class="best-service__item">
+              <div class="best-service__icon best-service__icon--delivery"></div>
+              <div class="best-service__descr">
+                <h3 class="best-service__item-title">Fasted delivery Service</h3>
+                <p class="best-service__item-text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                  industry.</p>
+              </div>
+            </div>
+            <div class="best-service__item best-service__item--online">
+              <div class="best-service__icon best-service__icon--online"></div>
+              <div class="best-service__descr">
+                <h3 class="best-service__item-title">Online order Service</h3>
+                <p class="best-service__item-text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                  industry.</p>
+              </div>
+            </div>
+            <div class="best-service__item">
+              <div class="best-service__icon best-service__icon--hours"></div>
+              <div class="best-service__descr">
+                <h3 class="best-service__item-title">24/8 Service</h3>
+                <p class="best-service__item-text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                  industry.</p>
+              </div>
+            </div>
+            <img class="arrow-down" src="./images/arrow_down.svg" alt="arrow">
+          </div>
+          <img class="best-service__image" src="./images/grocery-group.png" alt="best-service__image">
+        </div>
+      </div>
+    </section>
+    <section class="explore-section">
+      <div class="container container__color">
+        <div class="explore-section__wrapper">
+          <img class="explore_image" src="./images/items.png" alt="items">
+          <div class="explore-section__text-block">
+            <h2 class="main-title main-title--explore">Explore Our Special Items</h2>
+            <p class="explore-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+              Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer....</p>
+            <div class="order-block order-block--explore">
+              <span class="order-text order-text--explore">Explore Now</span>
+              <button class="order-btn"></button>
+            </div>
+          </div>
+        </div>
+        <img class="leaves-explore" src="./images/leaves.png" alt="leaves">
+      </div>
+    </section>
+    <section class="feedback-section">
+      <div class="container">
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="feedback-section__wrapper">
+                <div class="feedback-section__text-block">
+                  <h2 class="main-title main-title--explore">What Our Customers Saying About Us</h2>
+                  <p class="explore-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                    Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                    galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but
+                    also the leap into electronic typesetting, remaining essentially unchanged. It was popularis</p>
+                  <div class="feedback-details-block">
+                    <div class="feedbak-main-details">
+                      <p class="feddback-name">Ahmed Hridoy</p>
+                      <div class="feedback-stars">
+                        <img class="star" src="./images/star.svg" alt="star">
+                        <img class="star" src="./images/star.svg" alt="star">
+                        <img class="star" src="./images/star.svg" alt="star">
+                        <img class="star" src="./images/star.svg" alt="star">
+                        <img class="star" src="./images/hstar.svg" alt="star">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="feedback-person">
+                  <div class="feedback-crowd">
+                    <div class="feedback-stars-on-photo">
+                      <img class="star--small" src="./images/star.svg" alt="star">
+                      <img class="star--small" src="./images/star.svg" alt="star">
+                      <img class="star--small" src="./images/star.svg" alt="star">
+                      <img class="star--small" src="./images/star.svg" alt="star">
+                      <img class="star--small" src="./images/hstar.svg" alt="star">
+                    </div>
+                    <div class="feedback-others">
+                      <img class="feedback-photo" src="./images/feedback1.png" alt="photo">
+                      <img class="feedback-photo" src="./images/feedback2.png" alt="photo">
+                      <img class="feedback-photo" src="./images/feedback3.png" alt="photo">
+                      <img class="feedback-photo" src="./images/feedback4.png" alt="photo">
+                      <img class="feedback-photo" src="./images/feedback5.png" alt="photo">
+                      <img class="feedback-photo" src="./images/feedback6.png" alt="photo">
+                      <img class="feedback-photo" src="./images/feedback_plus.png" alt="photo">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="feedback-section__wrapper">
+                    <div class="feedback-section__text-block">
+                      <h2 class="main-title main-title--explore">What Our Customers Saying About Us</h2>
+                      <p class="explore-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                        galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but
+                        also the leap into electronic typesetting, remaining essentially unchanged. It was popularis</p>
+                      <div class="feedback-details-block">
+                        <div class="feedbak-main-details">
+                          <p class="feddback-name">Kristina Smith</p>
+                          <div class="feedback-stars">
+                            <img class="star" src="./images/star.svg" alt="star">
+                            <img class="star" src="./images/star.svg" alt="star">
+                            <img class="star" src="./images/star.svg" alt="star">
+                            <img class="star" src="./images/star.svg" alt="star">
+                            <img class="star" src="./images/hstar.svg" alt="star">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="feedback-person feedback-person--woman">
+                      <div class="feedback-crowd">
+                        <div class="feedback-stars-on-photo">
+                          <img class="star--small" src="./images/star.svg" alt="star">
+                          <img class="star--small" src="./images/star.svg" alt="star">
+                          <img class="star--small" src="./images/star.svg" alt="star">
+                          <img class="star--small" src="./images/star.svg" alt="star">
+                          <img class="star--small" src="./images/hstar.svg" alt="star">
+                        </div>
+                        <div class="feedback-others">
+                          <img class="feedback-photo" src="./images/feedback1.png" alt="photo">
+                          <img class="feedback-photo" src="./images/feedback2.png" alt="photo">
+                          <img class="feedback-photo" src="./images/feedback3.png" alt="photo">
+                          <img class="feedback-photo" src="./images/feedback4.png" alt="photo">
+                          <img class="feedback-photo" src="./images/feedback5.png" alt="photo">
+                          <img class="feedback-photo" src="./images/feedback6.png" alt="photo">
+                          <img class="feedback-photo" src="./images/feedback_plus.png" alt="photo">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+      </div>
+    </div>
+    </section>
+    <section class="app-section">
+      <div class="container">
+        <div class="app-section__wrapper">
+          <img class="app-section__img" src="./images/phones.png" alt="phones">
+          <div class="app-section__content">
+            <a class="download-link" href="#">Download App</a>
+            <h2 class="main-title main-title--app">Simple Way To Order Your Organic Fruit </h2>
+            <p class="app-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+              has been the industry's standard dummy text ever since the 1500s, when an unknown printer...</p>
+            <div class="app-logos">
+              <a class="app-link" href="#">
+                <img class="app-logo" src="./images/appstore.png" alt="appstore">
+              </a>
+              <a class="app-link" href="#">
+                <img class="app-logo" src="./images/googleplay.png" alt="googleplay">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container container__footer">
+      <div class="footer-wrapper">
+        <div class="footer-logo">
+          <img class="footer-logo__icon" src="./images/logo.png" alt="logo">
+          <p class="footer-text">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s, when an unknown printer...
+          </p>
+        </div>
+        <div class="footer-block">
+          <h4 class="footer-title">Navigation</h4>
+          <ul class="footer-list">
+            <li class="footer-item"><a class="footer-link" href="#">About Us</a></li>
+            <li class="footer-item"><a class="footer-link" href="#">Service</a></li>
+            <li class="footer-item"><a class="footer-link" href="#">Menu</a></li>
+          </ul>
+        </div>
+        <div class="footer-block">
+          <h4 class="footer-title">Resources</h4>
+          <ul class="footer-list">
+            <li class="footer-item"><a class="footer-link" href="#">Reviews</a></li>
+            <li class="footer-item"><a class="footer-link" href="#">Blog</a></li>
+            <li class="footer-item"><a class="footer-link" href="#">Update News</a></li>
+          </ul>
+        </div>
+        <div class="footer-block">
+          <h4 class="footer-title footer-title--email">Contacts Us</h4>
+          <a class="footer-link footer-link--email" href="mailto:oyasim@email.com">Email: oyasim@email.com</a>
+          <div class="footer-logo-block">
+            <a class="logo-contact-link" href="#">
+              <img class="logo-contact" src="./images/fb.svg" alt="logo">
+            </a>
+            <a class="logo-contact-link" href="#">
+              <img class="logo-contact" src="./images/twitter.svg" alt="logo">
+            </a>
+            <a class="logo-contact-link" href="#">
+              <img class="logo-contact" src="./images/instagram.svg" alt="logo">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="modals">
+		<div class="modal-overlay">
+			<div class="modal" data-target="form-popup">
+        <button class="close__icon">X</button>
+        <ul class="modal__list">
+          <li class="modal__item"><a class="modal__link" href="#">About Us</a></li>
+          <li class="modal__item"><a class="modal__link" href="#">Service</a></li>
+          <li class="modal__item"><a class="modal__link" href="#">Menu</a></li>
+          <li class="modal__item"><a class="modal__link" href="#">Contact</a></li>
+        </ul>
+			</div>
+		</div>
+	</div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
