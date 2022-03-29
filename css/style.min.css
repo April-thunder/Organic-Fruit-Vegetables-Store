@@ -68,10 +68,12 @@ input,
 button,
 textarea,
 select {
+    cursor: pointer;
     font: inherit
 }
 
 a {
+    cursor: pointer;
     text-decoration: none
 }
 
@@ -81,7 +83,7 @@ body {
 }
 
 .container {
-    max-width: 1187px;
+    max-width: 1280px;
     margin: 0 auto;
     padding: 0 20px
 }
@@ -175,14 +177,13 @@ body {
 
 .container__color {
     background: #f3fbf8;
-    max-width: 1440px;
-    position: relative
+    max-width: 100%;
 }
 
 .main-title {
     font-size: 70px;
     line-height: 90px;
-    padding-top: 90px;
+    padding-top: 50px;
     padding-bottom: 20px;
     text-align: center
 }
@@ -193,15 +194,19 @@ body {
     margin: 0 auto
 }
 
+.leaves__container {
+    position: relative;
+}
+
 .leaves-block {
     position: absolute;
-    top: 0;
+    top: 110px;
     left: 0
 }
 
 .leaves-explore {
     position: absolute;
-    top: 410px;
+    top: 550px;
     right: -60px
 }
 
@@ -255,7 +260,8 @@ body {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    padding-bottom: 17px
+    padding-bottom: 17px;
+    margin-top: 50px;
 }
 
 .main-image {
@@ -317,7 +323,7 @@ body {
 }
 
 .main-title--service {
-    padding-top: 140px;
+    padding-top: 130px;
     text-align: left
 }
 
@@ -392,8 +398,22 @@ body {
     padding-top: 10px
 }
 
-.arrow-down {
-    margin: 0 auto
+.arrow-down__link {
+    display: block;
+    width: 15px;
+    margin: 0 auto;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+}
+
+.arrow-down__link:hover {
+    transform: translateY(3px);
+    -webkit-transform: translateY(3px);
+    -ms-transform: translateY(3px);
+    transition: .3s;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
 }
 
 .best-service__image {
@@ -414,7 +434,7 @@ body {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    padding: 87px 0 145px 80px
+    padding: 87px 0 145px 0px
 }
 
 .main-title--explore {
@@ -602,12 +622,6 @@ body {
     max-width: 575px
 }
 
-.container__footer {
-    background: #fcfefd;
-    max-width: 1440px;
-    position: relative
-}
-
 .footer-wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -615,7 +629,7 @@ body {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    padding: 74px 102px 120px 80px
+    padding: 74px 0px 120px 0px
 }
 
 .footer-logo {
@@ -1148,6 +1162,11 @@ body {
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         justify-content: center
+    }
+
+    .footer-block {
+        margin-left: 0px;
+        margin-right: 0px
     }
 }
 

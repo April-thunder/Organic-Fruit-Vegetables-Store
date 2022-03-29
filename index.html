@@ -39,52 +39,55 @@
   </header>
   <main class="main">
     <section class="main-section">
-      <div class="container container__color">
-        <h1 class="main-title">Organic Fruit & Vegetables</h1>
-        <p class="main-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-          been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley...</p>
-        <div class="leaves-block">
-          <div id="scene">
-            <img class="leaves" data-depth="0.2" src="images/leaves.png" alt="leaves">
+      <div class="container__color">
+        <div class="container leaves__container">
+          <h1 class="main-title">Organic Fruit & Vegetables</h1>
+          <p class="main-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley...</p>
+          <div class="leaves-block">
+            <div id="scene">
+              <img class="leaves" data-depth="0.2" src="images/leaves.png" alt="leaves">
+            </div>
           </div>
-        </div>
-        <div class="order-block">
-          <span class="order-text">Order Now</span>
-          <button class="order-btn"></button>
-        </div>
-        <div class="main-bottom">
-          <img class="main-image" src="images/main_image.png" alt="main-image">
-          <div class="counter-block">
-            <div class="counter-block__item">
-              <img class="counter-icon" src="images/user.svg" alt="order">
-              <div class="counter-block__details">
-                <div class="counter-wrapper">
-                  <span class="counter" data-target="30">0</span>
-                  <span class="counter-format">K</span>
+          <div class="order-block">
+            <span class="order-text">Order Now</span>
+            <button class="order-btn"></button>
+          </div>
+          <div class="main-bottom">
+            <img class="main-image" src="images/main_image.png" alt="main-image">
+            <div class="counter-block">
+              <div class="counter-block__item">
+                <img class="counter-icon" src="images/user.svg" alt="order">
+                <div class="counter-block__details">
+                  <div class="counter-wrapper">
+                    <span class="counter" data-target="30">0</span>
+                    <span class="counter-format">K</span>
+                  </div>
+                  <span class="counter-block__text">User Order</span>
                 </div>
-                <span class="counter-block__text">User Order</span>
               </div>
-            </div>
-            <div class="counter-block__item">
-              <img class="counter-icon" src="images/star.svg" alt="star">
-              <div class="counter-block__details">
-                <div class="counter-wrapper">
-                  <span class="counter" data-target="20">0</span>
-                  <span class="counter-format">K</span>
+              <div class="counter-block__item">
+                <img class="counter-icon" src="images/star.svg" alt="star">
+                <div class="counter-block__details">
+                  <div class="counter-wrapper">
+                    <span class="counter" data-target="20">0</span>
+                    <span class="counter-format">K</span>
+                  </div>
+                  <span class="counter-block__text">Reviews(4.8)</span>
                 </div>
-                <span class="counter-block__text">Reviews(4.8)</span>
               </div>
-            </div>
-            <div class="counter-block__item">
-              <img class="counter-icon" src="images/harvest.svg" alt="harvest">
-              <div class="counter-block__details">
-                <span class="counter" data-target="300">0</span>
-                <span class="counter-block__text">Items</span>
+              <div class="counter-block__item">
+                <img class="counter-icon" src="images/harvest.svg" alt="harvest">
+                <div class="counter-block__details">
+                  <span class="counter" data-target="300">0</span>
+                  <span class="counter-block__text">Items</span>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+      
 
     </section>
     <section class="best-service-section">
@@ -118,28 +121,33 @@
                   industry.</p>
               </div>
             </div>
-            <img class="arrow-down" src="./images/arrow_down.svg" alt="arrow">
+            <a class="arrow-down__link" href="#">
+              <img class="arrow-down" src="./images/arrow_down.svg" alt="arrow">
+            </a>
           </div>
           <img class="best-service__image" src="./images/grocery-group.png" alt="best-service__image">
         </div>
       </div>
     </section>
     <section class="explore-section">
-      <div class="container container__color">
-        <div class="explore-section__wrapper">
-          <img class="explore_image" src="./images/items.png" alt="items">
-          <div class="explore-section__text-block">
-            <h2 class="main-title main-title--explore">Explore Our Special Items</h2>
-            <p class="explore-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-              Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer....</p>
-            <div class="order-block order-block--explore">
-              <span class="order-text order-text--explore">Explore Now</span>
-              <button class="order-btn"></button>
+      <div class="container__color">
+        <div class="container leaves__container">
+          <div class="explore-section__wrapper">
+            <img class="explore_image" src="./images/items.png" alt="items">
+            <div class="explore-section__text-block">
+              <h2 class="main-title main-title--explore">Explore Our Special Items</h2>
+              <p class="explore-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer....</p>
+              <div class="order-block order-block--explore">
+                <span class="order-text order-text--explore">Explore Now</span>
+                <button class="order-btn"></button>
+              </div>
             </div>
           </div>
+          <img class="leaves-explore" src="./images/leaves.png" alt="leaves">
         </div>
-        <img class="leaves-explore" src="./images/leaves.png" alt="leaves">
       </div>
+     
     </section>
     <section class="feedback-section">
       <div class="container">
@@ -264,44 +272,46 @@
     </section>
   </main>
   <footer>
-    <div class="container container__footer">
-      <div class="footer-wrapper">
-        <div class="footer-logo">
-          <img class="footer-logo__icon" src="./images/logo.png" alt="logo">
-          <p class="footer-text">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-            industry's standard dummy text ever since the 1500s, when an unknown printer...
-          </p>
-        </div>
-        <div class="footer-block">
-          <h4 class="footer-title">Navigation</h4>
-          <ul class="footer-list">
-            <li class="footer-item"><a class="footer-link" href="#">About Us</a></li>
-            <li class="footer-item"><a class="footer-link" href="#">Service</a></li>
-            <li class="footer-item"><a class="footer-link" href="#">Menu</a></li>
-          </ul>
-        </div>
-        <div class="footer-block">
-          <h4 class="footer-title">Resources</h4>
-          <ul class="footer-list">
-            <li class="footer-item"><a class="footer-link" href="#">Reviews</a></li>
-            <li class="footer-item"><a class="footer-link" href="#">Blog</a></li>
-            <li class="footer-item"><a class="footer-link" href="#">Update News</a></li>
-          </ul>
-        </div>
-        <div class="footer-block">
-          <h4 class="footer-title footer-title--email">Contacts Us</h4>
-          <a class="footer-link footer-link--email" href="mailto:oyasim@email.com">Email: oyasim@email.com</a>
-          <div class="footer-logo-block">
-            <a class="logo-contact-link" href="#">
-              <img class="logo-contact" src="./images/fb.svg" alt="logo">
-            </a>
-            <a class="logo-contact-link" href="#">
-              <img class="logo-contact" src="./images/twitter.svg" alt="logo">
-            </a>
-            <a class="logo-contact-link" href="#">
-              <img class="logo-contact" src="./images/instagram.svg" alt="logo">
-            </a>
+    <div class="container__color">
+      <div class="container">
+        <div class="footer-wrapper">
+          <div class="footer-logo">
+            <img class="footer-logo__icon" src="./images/logo.png" alt="logo">
+            <p class="footer-text">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+              industry's standard dummy text ever since the 1500s, when an unknown printer...
+            </p>
+          </div>
+          <div class="footer-block">
+            <h4 class="footer-title">Navigation</h4>
+            <ul class="footer-list">
+              <li class="footer-item"><a class="footer-link" href="#">About Us</a></li>
+              <li class="footer-item"><a class="footer-link" href="#">Service</a></li>
+              <li class="footer-item"><a class="footer-link" href="#">Menu</a></li>
+            </ul>
+          </div>
+          <div class="footer-block">
+            <h4 class="footer-title">Resources</h4>
+            <ul class="footer-list">
+              <li class="footer-item"><a class="footer-link" href="#">Reviews</a></li>
+              <li class="footer-item"><a class="footer-link" href="#">Blog</a></li>
+              <li class="footer-item"><a class="footer-link" href="#">Update News</a></li>
+            </ul>
+          </div>
+          <div class="footer-block">
+            <h4 class="footer-title footer-title--email">Contacts Us</h4>
+            <a class="footer-link footer-link--email" href="mailto:oyasim@email.com">Email: oyasim@email.com</a>
+            <div class="footer-logo-block">
+              <a class="logo-contact-link" href="#">
+                <img class="logo-contact" src="./images/fb.svg" alt="logo">
+              </a>
+              <a class="logo-contact-link" href="#">
+                <img class="logo-contact" src="./images/twitter.svg" alt="logo">
+              </a>
+              <a class="logo-contact-link" href="#">
+                <img class="logo-contact" src="./images/instagram.svg" alt="logo">
+              </a>
+            </div>
           </div>
         </div>
       </div>
