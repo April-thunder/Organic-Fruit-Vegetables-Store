@@ -21,7 +21,7 @@ The page was made as exercise for layout and Javascript skills
 - Сross browser compatibility
 ## Demo
 
-Click the link to see the page 
+Click the link to see the page https://april-thunder.github.io/Organic-Fruit-Vegetables-Store/
 
 
 
